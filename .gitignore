@@ -1,0 +1,11 @@
+node_modules
+*.log*
+.cache
+.output
+.env
+.env.local
+dist
+build
+.DS_Store
+.next/
+out/livecode-session-studio-darwin-x64
