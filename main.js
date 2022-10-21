@@ -9,12 +9,12 @@ let mainWindow;
 async function executeApp(win, params) {
   const drawView = new BrowserView()
   mainWindow.addBrowserView(drawView)
-  drawView.setBounds({ x: 0, y: 25, width: 624, height: 375 })
+  drawView.setBounds({ x: 0, y: 0, width: 624, height: 400 })
   drawView.setAutoResize({ width: true, height: true, vertical: true, horizontal: true })
 
   const audioView = new BrowserView()
   mainWindow.addBrowserView(audioView)
-  audioView.setBounds({ x: 624, y: 25, width: 400, height: 375 })
+  audioView.setBounds({ x: 624, y: 0, width: 400, height: 400 })
   audioView.setAutoResize({ width: true, height: true, vertical: true, horizontal: true })
 
   const codeView = new BrowserView()

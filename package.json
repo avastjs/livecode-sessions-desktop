@@ -1,14 +1,14 @@
 {
   "name": "livecode-session-studio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Live studio for live.vastjs.io",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "",
+  "author": "VastJS",
   "license": "ISC",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"

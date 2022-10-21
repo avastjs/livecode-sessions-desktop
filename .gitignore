@@ -9,3 +9,6 @@ build
 .DS_Store
 .next/
 out/livecode-session-studio-darwin-x64
+out/livecode-session-studio-win32-x64
+out/make/squirrel.windows/x64/live-studio-1.0.0-full.nupkg
+out/make/squirrel.windows/x64/RELEASES
